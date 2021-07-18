@@ -1,0 +1,13 @@
+import random
+
+#imprimir cadena al revés
+
+#usamos reversed para hacer un recorrido de un for al contrario
+
+class cadena():
+    def cadena1():
+
+        caracter="Mi Diario Python"
+        for i in reversed(caracter):
+            print(i,end="")
+cadena.cadena1()
